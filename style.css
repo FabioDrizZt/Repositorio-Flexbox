@@ -1,0 +1,29 @@
+.contenedor {
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 300px;
+  border: 1px solid #333;
+  height: 200px;
+  gap: 10px;
+  padding: 5px;
+}
+.contenedor * {
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 4px;
+}
+.caja1 {
+  order: 2;
+  flex-grow: .75;
+
+}
+.caja2 {
+  order: 2;
+  flex-grow: .25;
+}
+.caja9 {
+  order: -1;
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 4px;
+}
